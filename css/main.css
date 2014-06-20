@@ -109,7 +109,7 @@ nav li.active a:hover {
     cursor: default;
 }
 .col-6 {
-    width:50%;
+    width:45%;
     float:left;
 }
 .clearfix:after {
@@ -125,6 +125,13 @@ nav li.active a:hover {
 * html .clearfix { height: 1%; }
 .clearfix { display: block; }
 /* close commented backslash hack */
+/****** COLOR CLASSES ************/
+/* BG */
+.lightGreen {background-color:#b2d84b;}
+.darkGreen {background-color:#82a53b;}
+/* TEXT COLOR */
+.text-white {color:#fff;}
+/****** COLOR CLASSES END ********/
 .nav_bottom {
     background: none repeat scroll 0 0 #3A2524;
     clear: both;
@@ -150,6 +157,12 @@ nav li.active a:hover {
     line-height: 40px;
     margin: 0 0 15px;
     text-shadow: 1px 1px 5px #D6B518;
+}
+#content h3 {
+    font-size:24px;
+    line-height:40px;
+    margin:0 0 15px;
+    text-align: center;
 }
 #content p {
     font-weight: normal;
@@ -447,3 +460,6 @@ label {
 }
 #contactForm input {float:left !important;}
 #contactForm input#submit {float:right !important;}
+.newsletters {font-family:Verdana, "English: USA",arial,tahoma,geneva,sans-serif;}
+.newsletters .col-6 {padding:50px 22px;}
+.newsletters .col-6 .margin-left-50 {margin-left:50%;}
