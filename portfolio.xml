@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<portfolio>
+
+	<categories>
+		<category id="trimming">Trimming / Pruning</category>
+		<category id="gardens">Container Gardens</category>
+		<category id="cleanup">Cleanup</category>
+		<category id="landscapes">Landscapes</category>
+		<category id="snow">Snow Removal</category>
+	</categories>
+
+	<items>
+		<item>
+			<thumbnail>images/img1_small.jpg</thumbnail>
+			<preview>images/img1.jpg</preview>
+			<category>landscapes</category>
+			<description>Shrub Installation</description>
+		</item>
+		<item>
+			<thumbnail>images/img2_small.jpg</thumbnail>
+			<preview>images/img2.jpg</preview>
+			<category>trimming</category>
+			<description>Shrub Trimming</description>
+		</item>
+		<item>
+			<thumbnail>images/img3_small.jpg</thumbnail>
+			<preview>images/img3.jpg</preview>
+			<category>trimming</category>
+			<description>Shrub Trimming</description>
+		</item>
+		<item>
+			<thumbnail>images/img4_small.jpg</thumbnail>
+			<preview>images/img4.jpg</preview>
+			<category>trimming</category>
+			<description>Shrub Trimming</description>
+		</item>
+		<item>
+			<thumbnail>images/img5_small.jpg</thumbnail>
+			<preview>images/img5.jpg</preview>
+			<category>trimming</category>
+			<description>Shrub Trimming</description>
+		</item>
+		<item>
+			<thumbnail>images/img14_small.jpg</thumbnail>
+			<preview>images/img14.jpg</preview>
+			<category>trimming</category>
+			<description>Tree Pruning</description>
+		</item>
+		<item>
+			<thumbnail>images/img6_small.jpg</thumbnail>
+			<preview>images/img6.jpg</preview>
+			<category>landscapes</category>
+			<description>Shrub Installation</description>
+		</item>
+		<item>
+			<thumbnail>images/img7_small.jpg</thumbnail>
+			<preview>images/img7.jpg</preview>
+			<category>landscapes</category>
+			<description>Shrub Installation</description>
+		</item>
+		<item>
+			<thumbnail>images/img8_small.jpg</thumbnail>
+			<preview>images/img8.jpg</preview>
+			<category>landscapes</category>
+			<description>Shrub Installation - AFTER</description>
+		</item>
+		<item>
+			<thumbnail>images/img9_small.jpg</thumbnail>
+			<preview>images/img9.jpg</preview>
+			<category>cleanup</category>
+			<description>Fall Cleanup - DURING</description>
+		</item>
+		<item>
+			<thumbnail>images/img10_small.jpg</thumbnail>
+			<preview>images/img10.jpg</preview>
+			<category>cleanup</category>
+			<description>Fall Cleanup - AFTER</description>
+		</item>
+		<item>
+			<thumbnail>images/img11_small.jpg</thumbnail>
+			<preview>images/img11.jpg</preview>
+			<category>gardens</category>
+			<description>Container Gardens - Before and After</description>
+		</item>
+		<item>
+			<thumbnail>images/img12_small.jpg</thumbnail>
+			<preview>images/img12.jpg</preview>
+			<category>gardens</category>
+			<description>Container Gardens - Before and After</description>
+		</item>
+		<item>
+			<thumbnail>images/img13_small.jpg</thumbnail>
+			<preview>images/img13.jpg</preview>
+			<category>gardens</category>
+			<description>Container Gardens - Late Summer</description>
+		</item>
+		<item>
+			<thumbnail>images/img15_small.jpg</thumbnail>
+			<preview>images/img15.jpg</preview>
+			<category>gardens</category>
+			<description>Perennial Gardens</description>
+		</item>
+		<item>
+			<thumbnail>images/img16_small.jpg</thumbnail>
+			<preview>images/img16.jpg</preview>
+			<category>landscapes</category>
+			<description>Landscape beds cleanup</description>
+		</item>
+		<item>
+			<thumbnail>images/img17_small.jpg</thumbnail>
+			<preview>images/img17.jpg</preview>
+			<category>landscapes</category>
+			<description>Landscape beds cleanup</description>
+		</item>
+		<item>
+			<thumbnail>images/img18_small.jpg</thumbnail>
+			<preview>images/img18.jpg</preview>
+			<category>landscapes</category>
+			<description>Landscape Installation</description>
+		</item>
+		<item>
+			<thumbnail>images/img19_small.jpg</thumbnail>
+			<preview>images/img19.jpg</preview>
+			<category>snow</category>
+			<description>Snow Removal Services</description>
+		</item>
+		<item>
+			<thumbnail>images/img20_small.jpg</thumbnail>
+			<preview>images/img20.jpg</preview>
+			<category>snow</category>
+			<description>Snow Removal Services</description>
+		</item>
+		<item>
+			<thumbnail>images/img21_small.jpg</thumbnail>
+			<preview>images/img21.jpg</preview>
+			<category>snow</category>
+			<description>Snow Removal Services</description>
+		</item>
+		<item>
+			<thumbnail>images/img22_small.jpg</thumbnail>
+			<preview>images/img22.jpg</preview>
+			<category>snow</category>
+			<description>Snow Removal Services</description>
+		</item>
+	</items>
+</portfolio>

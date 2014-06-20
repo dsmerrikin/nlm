@@ -1,0 +1,184 @@
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    border: 0 none;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+@font-face {
+    src: url("../assets/fonts/");
+}
+body {
+    background: url("../images/bgr.gif") repeat scroll 0 0 transparent;
+    font: 13px "English: USA",arial,tahoma,geneva,sans-serif;
+}
+ol, ul {
+    list-style: none outside none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+#container {
+    background: none repeat scroll 0 0 transparent;
+    box-shadow: 0 0 20px 40px #515B57;
+    margin: 0 auto 50px auto;
+    position: relative;
+    width: 960px;
+    border-radius: 0 0 15px 15px;
+}
+#header {
+    background: url("../images/nlm_logo_header.jpg") no-repeat scroll 0 0 transparent;
+    height: 124px;
+    padding: 0;
+    width: 960px;
+}
+#nav {
+    background: url("../images/grad-bgr.gif") repeat-x scroll 0 0 transparent;
+    color: #68716D;
+    font-weight: bold;
+    height: 42px;
+    width: 960px;
+}
+#nav ul {
+    padding: 0 0 0 5px;
+    width: 960px;
+    margin: 0 0px 0 0;
+}
+#nav li {
+    float: left;
+    
+}
+#nav li a {
+    color: #47665A;
+    display: block;
+    padding: 13px;
+    text-decoration: none;
+}
+.current {
+	color: #665204 !important;
+	background: transparent !important;
+}
+#nav li a:hover {
+	background: #6BA094;
+	color: #fff;
+}
+#banner {
+    background: url("../images/") repeat scroll 0 0 transparent;
+}
+#content-wrapper {
+    width: 100%;
+}
+#content {
+    background: none repeat scroll 0 0 #F2ECE2;
+    font-size: 14px;
+    padding: 15px 25px;
+}
+#content h2 {
+    color: #624645;
+    font-family: rochester;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 40px;
+    margin: 0 0 15px;
+    text-shadow: 1px 1px 5px #D6B518;
+}
+#content p {
+    font-weight: normal;
+    line-height: 22px;
+    margin: 0 0 15px;
+}
+#content a {
+    color: #47665C;
+}
+#my-slider {
+    background: none repeat scroll 0 0;
+    float: right;
+    margin: 0 20px;
+}
+.testimonials {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #C8B993;
+    border-radius: 0 10px 10px 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.testimonials p {
+    color: #665204;
+    font-style: italic;
+    
+}
+.testimonial_author {
+	text-align:right !important;
+}
+.testimonial_inner {
+	padding:10px 10px 0;
+	float:left;
+}
+.clientSay {
+    background: none repeat scroll 0 0 #C8B993;
+    border-radius: 0 0 8px 0;
+    color: #623F02;
+    font-weight: bold;
+    height: 25px;
+    width: 300px;
+}
+.clientSay h3 {
+    padding: 3px 10px;
+font-size:15px;
+}
+.readMore {
+    font-style: italic;
+    font-weight: normal;
+    margin: 0 10px 10px 0;
+    text-align: right;
+}
+.showWhole {
+    font-style: italic;
+    font-weight: normal;
+    margin: 0 10px 10px 0;
+    text-align:left;
+    color:#47665C;
+}
+#footer {
+    background: url("../images/grad-bgr.gif") repeat-x scroll 0 0 transparent;
+    border-radius: 0 0 15px 15px;
+    height: 42px;
+    position: relative;
+    width: 960px;
+}
+#footer p {
+    color: #6B4141;
+    float: left;
+    line-height: 20px;
+    margin: 14px 20px 0 31px;
+}
+#footer p a {
+    color: #68716D;
+    text-decoration: none;
+}
+#footer a {
+	color: #783F3F;
+	text-decoration: none;
+	font-size: 14px;
+	text-align: center;
+}
+#footer img {
+	margin: 8px 5px -8px 25px;
+}
+.flink {
+	padding: 5px 0;
+}
+#logoFull {
+	
+}

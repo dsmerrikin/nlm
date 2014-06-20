@@ -1,0 +1,449 @@
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    border: 0 none;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+@font-face {
+    src: url("../assets/fonts/");
+}
+body {
+    background: url("../images/bgr.gif") repeat scroll 0 0 transparent;
+    font: 13px "English: USA",arial,tahoma,geneva,sans-serif;
+}
+ol, ul {
+    list-style: none outside none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+#container {
+    background: none repeat scroll 0 0 transparent;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0 0 20px 40px #515B57;
+    margin: 0 auto 50px;
+    position: relative;
+    width: 960px;
+}
+header {
+    background: url("../images/nlm_logo_header.jpg") no-repeat scroll 0 0 transparent;
+    height: 124px;
+    padding: 0;
+    width: 960px;
+}
+.nlmlogo {
+    height: 110px;
+    left: 11px;
+    position: absolute;
+    top: 6px;
+    width: 108px;
+}
+nav {
+    margin-top: -5px;
+    position: relative;
+    top: 5px;
+}
+nav ul {
+    position: relative;
+    top: -2px;
+}
+nav li {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    float: left;
+    padding: 0;
+    position: relative;
+    top: 2px;
+}
+nav li.active {
+    background: #6d362f; /* Old browsers */
+	background: -moz-linear-gradient(top,  #6d362f 0%, #6d362f 43%, #3a2524 68%, #3a2524 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6d362f), color-stop(43%,#6d362f), color-stop(68%,#3a2524), color-stop(100%,#3a2524)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #6d362f 0%,#6d362f 43%,#3a2524 68%,#3a2524 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #6d362f 0%,#6d362f 43%,#3a2524 68%,#3a2524 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #6d362f 0%,#6d362f 43%,#3a2524 68%,#3a2524 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #6d362f 0%,#6d362f 43%,#3a2524 68%,#3a2524 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6d362f', endColorstr='#3a2524',GradientType=0 ); /* IE6-9 */
+    border-radius: 10px 10px 0 0;
+    bottom: 0;
+    padding: 0 0 5px;
+    position: relative;
+    top: -3px;
+}
+.nav_fill {
+    background: url("../images/grad-bgr.gif") repeat-x scroll left top transparent;
+    bottom: 0;
+    height: 35px;
+    position: relative;
+}
+nav li a {
+    color: #000000;
+    display: block;
+    padding: 10px 15px;
+    position: relative;
+    text-decoration: none;
+    top: 0;
+}
+nav li.active a {
+    color: #FFFFFF !important;
+    padding: 10px 15px;
+    top: 5px;
+}
+nav li a:hover {
+    background: none repeat scroll 0 0 #C8B993;
+}
+nav li.active a:hover {
+    background: none repeat scroll 0 0 transparent;
+    cursor: default;
+}
+.col-6 {
+    width:50%;
+    float:left;
+}
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+.nav_bottom {
+    background: none repeat scroll 0 0 #3A2524;
+    clear: both;
+    height: 6px;
+    width: 100%;
+}
+#banner {
+    background: url("../images/") repeat scroll 0 0 transparent;
+}
+#content-wrapper {
+    width: 100%;
+}
+#content {
+    background: none repeat scroll 0 0 #F2ECE2;
+    font-size: 14px;
+    padding: 15px 25px;
+}
+#content h2 {
+    color: #624645;
+    font-family: rochester;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 40px;
+    margin: 0 0 15px;
+    text-shadow: 1px 1px 5px #D6B518;
+}
+#content p {
+    font-weight: normal;
+    line-height: 22px;
+    margin: 0 0 15px;
+}
+#content a {
+    color: #47665C;
+    font-style: italic;
+    text-decoration: underline;
+}
+#my-slider {
+    background: none repeat scroll 0 0 transparent;
+    float: none !important;
+    margin: 0 !important;
+}
+.slider_wrapper {
+    border: 2px solid #3A2524;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0 9px 10px 4px #999999;
+    float: right;
+    margin: 0 0 15px;
+    overflow: hidden;
+}
+.controls {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.7);
+    padding: 10px;
+}
+.controls a {
+    display: block;
+    float: left;
+    height: 25px;
+    margin-right: 5px;
+    width: 25px;
+}
+.controls .btn_prev {
+    background: url("pixel/images/arrows.png") no-repeat scroll left top transparent;
+}
+.controls .btn_playpause {
+    background: url("pixel/images/playpause.png") no-repeat scroll left top transparent;
+}
+.controls .btn_next {
+    background: url("pixel/images/arrows.png") no-repeat scroll right top transparent;
+}
+.controls .control_buttons {
+    margin: 0 auto;
+    width: 90px;
+}
+.testimonials {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #C8B993;
+    border-radius: 0 10px 10px 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.testimonials p {
+    color: #665204;
+    font-style: italic;
+}
+.testimonial_author {
+    text-align: right !important;
+}
+.testimonial_inner {
+    float: left;
+    padding: 10px 10px 0;
+}
+.clientSay {
+    background: none repeat scroll 0 0 #C8B993;
+    border-radius: 0 0 8px 0;
+    color: #623F02;
+    font-weight: bold;
+    height: 25px;
+    width: 300px;
+}
+.clientSay h3 {
+    font-size: 15px;
+    padding: 3px 10px;
+}
+.readMore {
+    font-style: italic;
+    font-weight: normal;
+    margin: 0 10px 10px 0;
+    text-align: right;
+}
+.showWhole {
+    color: #47665C;
+    font-style: italic;
+    font-weight: normal;
+    margin: 0 10px 10px 0;
+    text-align: left;
+}
+footer {
+    background: url("../images/grad-bgr.gif") repeat-x scroll 0 0 transparent;
+    height: 42px;
+    position: relative;
+    width: 960px;
+	border-radius:0px 0px 15px 15px;
+}
+footer p {
+    color: #6B4141;
+    float: left;
+    line-height: 20px;
+    margin: 14px 20px 0 31px;
+}
+footer p a {
+    color: #68716D;
+    text-decoration: none;
+}
+footer a {
+    color: #783F3F;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+footer img {
+    margin: 8px 5px -8px 25px;
+}
+#product_footer {
+	width: 980px;
+	margin: 0px auto 20px;
+	text-align: center;
+	color:#9fA99C;
+}
+#product_footer a {
+	color: #9fA99C;
+	text-decoration:underline;
+}
+#copyright p {
+	padding: 0 25px;
+	display: inline-block;
+	font-size: 14px;
+}
+.flink {
+    padding: 5px 0;
+}
+.firstLetter {
+    color: #624645;
+    float: left;
+    font-family: rochester;
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 30px;
+    margin: 0 0 5px;
+    padding-left: 3px;
+    padding-right: 8px;
+    padding-top: 4px;
+    text-shadow: 1px 1px 5px #D6B518;
+}
+.servicesList ul li {
+    clear: left;
+    font-weight: bold;
+    line-height: 36px;
+    margin-bottom: 15px;
+    vertical-align: middle;
+}
+.servicesImg {
+    margin: 0 20px 18px 0;
+}
+.featureImg {
+    float: right;
+    width: 411px;
+}
+.featureImg img {
+    border: 2px solid #FFFFFF;
+    border-radius: 15px 15px 15px 15px;
+}
+.servicesTitle {
+    font-size: 20px;
+    font-weight: bold;
+}
+.snowList ul li {
+    clear: left;
+    font-weight: bold;
+    line-height: 35px;
+}
+.plowFirst {
+    color: #FF0000;
+    font-weight: bold;
+}
+.servicesList ul li img {
+    margin: 0 20px 0 0;
+    vertical-align: middle;
+}
+.injuryCost {
+    float: right;
+    margin-left: 30px;
+    position: relative;
+}
+.plowLastP {
+    clear: right;
+    color: #FF0000;
+    float: right;
+    margin: 10px 0 0;
+    width: 48%;
+}
+.plowLastP a {
+    color: #FF0000 !important;
+}
+.testimonialFull {
+    border-bottom: 1px solid #FCBB67;
+    margin: 15px 0 0;
+}
+.testimonialFull p {
+    width: 100%;
+}
+.testimonialStar {
+    float: left;
+    margin: 0 10px 0 0;
+}
+.testimonialUser {
+    float: right;
+    margin-left: 30px;
+}
+.authorFull {
+    color: #AC7815;
+    font-style: italic;
+    text-align: right;
+}
+.contactBox {
+	background: #e8dfd0;
+	border: 1px solid #675837;
+	border-radius: 15px;
+	float:left;
+	overflow: hidden;
+	width: 45%;
+	position: relative;
+	padding: 15px;
+	height:347px;
+}
+.contactLeft {
+	float:left;
+}
+.contactLeft ul li span {
+	display:block;
+}
+.contactLeft a {
+	display: inline-block;
+}
+#content .contactLeft .company {
+	line-height: 18px;
+}
+.contactBox h3 {
+	color: #75342E;
+	font-weight: bold;
+	margin: 0 0 15px;
+}
+.contactLeft li {
+	padding-bottom: 15px;
+}
+.contactLeft img {
+	position:absolute;
+	bottom:0;
+	right:0;
+}
+.contactRight {
+	float: right;
+	clear:right;
+}
+.contactForm input,textarea {
+	border: 1px solid #d6bd94;
+	border-radius: 5px;
+	margin-left: 0px;
+	margin-bottom: 15px;
+	padding: 5px;
+	display:block;
+	float:left;
+	resize:none;
+}
+label {
+	display:block;
+	float:left;
+	clear:left;
+	text-align:right;
+	width:65px;
+	padding-right: 10px;
+	margin-bottom: 20px;
+	position: relative;
+	margin-top: 4px;
+}
+#submit {
+	background: #5d8312;
+	color:#fff;
+	padding: 5px 10px;
+	border: none;
+	border-radius: 5px;
+	width: 100px;
+	float:right;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	font-weight:900;
+	font-size: 15px;
+}
+.asterisk {
+	color: #f00;
+}
+#contactForm input {float:left !important;}
+#contactForm input#submit {float:right !important;}
