@@ -1,4 +1,10 @@
-$(document).ready(function() {	$('.showWhole').click(function() {		$('#hiddenHome').toggle('slow' , function() {					});	});});	!function ($) {
+$(document).ready(function() {	
+	$('.showWhole').click(function() {		
+		$('#hiddenHome').toggle('slow' , function(){});	
+	});
+	$(".lightGreen").css({'height':($(".darkGreen").height()+'px')});
+});	
+!function ($) {
   $(function(){	
   	$(".collapse").collapse()
   

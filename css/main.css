@@ -108,6 +108,8 @@ nav li.active a:hover {
     background: none repeat scroll 0 0 transparent;
     cursor: default;
 }
+b {font-weight:bold;}
+i {font-style: italic;}
 .col-6 {
     width:45%;
     float:left;
@@ -129,9 +131,15 @@ nav li.active a:hover {
 /* BG */
 .lightGreen {background-color:#b2d84b;}
 .darkGreen {background-color:#82a53b;}
-/* TEXT COLOR */
-.text-white {color:#fff;}
 /****** COLOR CLASSES END ********/
+/****** TEXT FORMATTING **********/
+.text-darkGreen {color:#4d714e;}
+.text-white {color:#fff;}
+.text-center {text-align: center;}
+.bold {font-weight: bold;}
+.italic {font-style: italic;}
+.underline {text-decoration: underline;}
+/****** TEXT FORMATTING END ******/
 .nav_bottom {
     background: none repeat scroll 0 0 #3A2524;
     clear: both;
@@ -159,9 +167,9 @@ nav li.active a:hover {
     text-shadow: 1px 1px 5px #D6B518;
 }
 #content h3 {
-    font-size:24px;
+    font-size:30px;
     line-height:40px;
-    margin:0 0 15px;
+    margin:0px;
     text-align: center;
 }
 #content p {
@@ -465,3 +473,9 @@ label {
 .newsletters {font-family:Verdana, "English: USA",arial,tahoma,geneva,sans-serif;}
 .newsletters .col-6 {padding:50px 22px;}
 .newsletters .col-6 .margin-left-50 {margin-left:50%;}
+#content.newsletters .col-6.lightGreen p:first-child {margin-bottom:47%;}
+.newsletters .img--center {margin:2% 25%;}
+.newsletters .referral {
+    border:1px dashed #abb44d;
+    margin-top:15px;
+}
