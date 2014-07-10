@@ -7,7 +7,7 @@
 		<category id="cleanup">Cleanup</category>
 		<category id="landscapes">Landscapes</category>
 		<category id="snow">Snow Removal</category>
-		<category id="perennials"></category>
+		<category id="perennials">Perennials</category>
 	</categories>
 
 	<items>
@@ -142,6 +142,12 @@
 			<preview>images/img22.jpg</preview>
 			<category>snow</category>
 			<description>Snow Removal Services</description>
+		</item>
+		<item>
+			<!-- <thumbnail>images/img15_small.jpg</thumbnail>
+			<preview>images/img15.jpg</preview>
+			<category>perennials</category>
+			<description>Perennial Gardens</description> -->
 		</item>
 	</items>
 </portfolio>
