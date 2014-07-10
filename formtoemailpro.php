@@ -68,7 +68,7 @@ Enter the email address below to send the contents of the form to.  Like this fo
 
 */
 
-$my_email = "mnorwood@norwoodlandscape.com, jmerrikin@gmail.com,dsmerrikin@gmail.com";
+$my_email = "mktgnorwood@gmail.com, jmerrikin@gmail.com,dsmerrikin@gmail.com";
 
 /*
 

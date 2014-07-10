@@ -471,6 +471,7 @@ label {
 #contactForm input {float:left !important;}
 #contactForm input#submit {float:right !important;}
 .newsletters {font-family:Verdana, "English: USA",arial,tahoma,geneva,sans-serif;}
+.newsletters a {margin-right:20px;}
 .newsletters .col-6 {padding:50px 22px;}
 .newsletters .col-6 .margin-left-50 {margin-left:50%;}
 #content.newsletters .col-6.lightGreen p:first-child {margin-bottom:47%;}
